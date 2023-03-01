@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="orange01">
+
+<!-- for relevantcodes/extentreports -->
+ <!-- <listeners>
+		<listener class-name="com.orangrhrm.utilities.Extentreports"></listener>
+	</listeners> -->
+	
+	<!-- for aventstack/extentreports -->
+	  <listeners>
+		<listener class-name="com.orangrhrm.utilities.Reporting"></listener>
+	</listeners>  
+
+	<test name="orangeHRM">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.orangehrm.testCases.TC_LoginTest_001"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [orange01]">
+  <listeners>
+    <listener class-name="com.orangrhrm.utilities.Reporting"/>
+  </listeners>
+  <test name="orangeHRM(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.orangehrm.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="logTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.orangehrm.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- orangeHRM(failed) -->
+</suite> <!-- Failed suite [orange01] -->
