@@ -172,3 +172,106 @@
 2023-03-01 13:11:37,695 [main] INFO orange01 - process was complited
 2023-03-01 14:46:24,620 [main] INFO orange01 - Expected URL is opened
 2023-03-01 14:46:24,637 [main] INFO orange01 - process was complited
+2023-03-07 10:24:49,419 [main] INFO orange01 - Expected URL is opened
+2023-03-07 10:24:49,441 [main] INFO orange01 - process was complited
+2023-03-07 10:25:19,743 [main] INFO orange01 - Expected URL is opened
+2023-03-07 10:25:19,762 [main] INFO orange01 - process was complited
+2023-03-07 11:28:20,283 [main] INFO orange01 - is was Displayed[[ChromeDriver: chrome on WINDOWS (99ba6c7f7dbd749ba4ad2dfc2c800cc8)] -> xpath: //li[@class='nav-item']/a[text()='Platform']]
+2023-03-07 11:28:20,306 [main] INFO orange01 - Expected URL is opened
+2023-03-07 11:28:20,322 [main] INFO orange01 - process was complited
+2023-03-07 13:10:03,410 [main] INFO orange01 - is was Displayednull
+2023-03-07 13:10:03,473 [main] INFO orange01 - Expected URL is opened
+2023-03-07 13:10:03,506 [main] INFO orange01 - process was complited
+2023-03-07 13:12:34,675 [main] INFO orange01 - is was Displayed
+2023-03-07 13:12:34,706 [main] INFO orange01 - Expected URL is opened
+2023-03-07 13:12:34,725 [main] INFO orange01 - process was complited
+2023-03-07 13:22:31,875 [main] INFO orange01 - is was Displayed
+2023-03-07 13:22:31,922 [main] INFO orange01 - Expected URL is opened
+2023-03-07 13:22:31,949 [main] INFO orange01 - process was complited
+2023-03-07 13:23:44,386 [main] INFO orange01 - is was Displayed[[ChromeDriver: chrome on WINDOWS (4670751fb383f8fc6bb8c968e5903524)] -> xpath: //li[@class='nav-item']/a[text()='Platform']]
+2023-03-07 13:23:44,462 [main] INFO orange01 - Expected URL is opened
+2023-03-07 13:23:44,489 [main] INFO orange01 - process was complited
+2023-03-07 13:24:27,625 [main] INFO orange01 - is was Displayedclass jdk.proxy2.$Proxy15
+2023-03-07 13:24:27,656 [main] INFO orange01 - Expected URL is opened
+2023-03-07 13:24:27,679 [main] INFO orange01 - process was complited
+2023-03-07 13:26:23,736 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-07 13:26:23,807 [main] INFO orange01 - Expected URL is opened
+2023-03-07 13:26:23,849 [main] INFO orange01 - process was complited
+2023-03-16 17:18:20,168 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:20:11,033 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:25:39,225 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:27:43,156 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:29:33,144 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:29:33,157 [main] INFO orange01 - process was complited
+2023-03-16 17:31:24,114 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:33:27,742 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 17:33:27,748 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:33:27,758 [main] INFO orange01 - process was complited
+2023-03-16 17:41:02,197 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 17:41:02,202 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:41:02,213 [main] INFO orange01 - process was complited
+2023-03-16 17:42:55,199 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:42:55,210 [main] INFO orange01 - process was complited
+2023-03-16 17:46:49,928 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:46:49,941 [main] INFO orange01 - process was complited
+2023-03-16 17:46:49,987 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 17:52:55,855 [main] INFO orange01 - Expected URL is opened
+2023-03-16 17:52:55,869 [main] INFO orange01 - process was complited
+2023-03-16 17:53:12,155 [main] INFO orange01 - ####################################
+2023-03-16 18:10:25,212 [main] INFO orange01 - Expected URL is opened
+2023-03-16 18:10:25,247 [main] INFO orange01 - process was complited
+2023-03-16 18:10:25,359 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 18:10:25,536 [main] INFO orange01 - ####################################
+2023-03-16 18:11:14,361 [main] INFO orange01 - Expected URL is opened
+2023-03-16 18:11:14,410 [main] INFO orange01 - process was complited
+2023-03-16 18:11:14,592 [main] INFO orange01 - ####################################
+2023-03-16 18:13:19,399 [main] INFO orange01 - Expected URL is opened
+2023-03-16 18:13:19,433 [main] INFO orange01 - process was complited
+2023-03-16 18:13:19,531 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 18:13:19,772 [main] INFO orange01 - ####################################
+2023-03-16 18:14:54,643 [main] INFO orange01 - Expected URL is opened
+2023-03-16 18:14:54,685 [main] INFO orange01 - process was complited
+2023-03-16 18:14:54,803 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 18:14:54,952 [main] INFO orange01 - ####################################
+2023-03-16 19:41:38,389 [main] INFO orange01 - Expected URL is opened
+2023-03-16 19:41:38,418 [main] INFO orange01 - process was complited
+2023-03-16 19:41:38,487 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 19:41:38,636 [main] INFO orange01 - ####################################
+2023-03-16 19:42:22,223 [main] INFO orange01 - Expected URL is opened
+2023-03-16 19:42:22,290 [main] INFO orange01 - process was complited
+2023-03-16 19:42:22,483 [main] INFO orange01 - ####################################
+2023-03-16 19:43:15,679 [main] INFO orange01 - ####################################
+2023-03-16 19:45:18,640 [main] INFO orange01 - Expected URL is opened
+2023-03-16 19:45:18,675 [main] INFO orange01 - process was complited
+2023-03-16 19:45:18,775 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 19:45:18,908 [main] INFO orange01 - ####################################
+2023-03-16 19:47:26,529 [main] INFO orange01 - Expected URL is opened
+2023-03-16 19:47:26,587 [main] INFO orange01 - process was complited
+2023-03-16 19:47:26,800 [main] INFO orange01 - ####################################
+2023-03-16 19:49:40,724 [main] INFO orange01 - Expected URL is opened
+2023-03-16 19:49:40,781 [main] INFO orange01 - process was complited
+2023-03-16 19:50:24,250 [main] INFO orange01 - Expected URL is opened
+2023-03-16 19:50:24,283 [main] INFO orange01 - process was complited
+2023-03-16 19:51:01,874 [main] INFO orange01 - Expected URL is opened
+2023-03-16 19:51:01,905 [main] INFO orange01 - process was complited
+2023-03-16 19:51:01,999 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-16 19:51:02,109 [main] INFO orange01 - ####################################
+2023-03-17 08:48:41,207 [main] INFO orange01 - Expected URL is opened
+2023-03-17 08:48:41,243 [main] INFO orange01 - process was complited
+2023-03-17 08:48:41,337 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-17 08:48:41,511 [main] INFO orange01 - ####################################
+2023-03-17 08:50:43,235 [main] INFO orange01 - Expected URL is opened
+2023-03-17 08:50:43,269 [main] INFO orange01 - process was complited
+2023-03-17 08:50:43,486 [main] INFO orange01 - ####################################
+2023-03-17 15:11:06,864 [main] INFO orange01 - Expected URL is opened
+2023-03-17 15:11:06,901 [main] INFO orange01 - process was complited
+2023-03-17 15:11:07,021 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-17 15:11:07,211 [main] INFO orange01 - ####################################
+2023-03-17 15:11:57,554 [main] INFO orange01 - Expected URL is opened
+2023-03-17 15:11:57,580 [main] INFO orange01 - process was complited
+2023-03-17 15:11:57,693 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-17 15:11:57,921 [main] INFO orange01 - ####################################
+2023-03-17 15:15:14,232 [main] INFO orange01 - Expected URL is opened
+2023-03-17 15:15:14,263 [main] INFO orange01 - process was complited
+2023-03-17 15:15:14,354 [main] INFO orange01 - PlatformElement webelement was Displayed t
+2023-03-17 15:15:14,514 [main] INFO orange01 - ####################################

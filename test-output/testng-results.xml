@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[ASSERTION PASSED: element PlatformElement is displayed.]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-03-01T09:16:12Z" name="orange01" finished-at="2023-03-01T09:16:24Z" duration-ms="12624">
+  <suite started-at="2023-03-17T16:14:23 IST" name="orange01" finished-at="2023-03-17T16:14:40 IST" duration-ms="16893">
     <groups>
     </groups>
-    <test started-at="2023-03-01T09:16:12Z" name="orangeHRM" finished-at="2023-03-01T09:16:24Z" duration-ms="12624">
-      <class name="com.orangehrm.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.testCases.TC_LoginTest_001@27c86f2d]" started-at="2023-03-01T14:46:12Z" name="setup" finished-at="2023-03-01T14:46:24Z" duration-ms="12240" status="PASS">
+    <test started-at="2023-03-17T16:14:23 IST" name="orangeHRM" finished-at="2023-03-17T16:14:40 IST" duration-ms="16893">
+      <class name="com.orangehrm.runners.LoginPageValidation">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.runners.LoginPageValidation@66d3eec0]" started-at="2023-03-17T16:14:23 IST" name="setup" finished-at="2023-03-17T16:14:40 IST" duration-ms="16205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +21,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logTest()[pri:0, instance:com.orangehrm.testCases.TC_LoginTest_001@27c86f2d]" started-at="2023-03-01T14:46:24Z" name="logTest" finished-at="2023-03-01T14:46:24Z" duration-ms="49" status="PASS">
+        <test-method signature="logTest()[pri:1, instance:com.orangehrm.runners.LoginPageValidation@66d3eec0]" started-at="2023-03-17T16:14:40 IST" name="logTest" finished-at="2023-03-17T16:14:40 IST" duration-ms="247" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[ASSERTION PASSED: element PlatformElement is displayed.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- logTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.testCases.TC_LoginTest_001@27c86f2d]" started-at="2023-03-01T14:46:24Z" name="tearDown" finished-at="2023-03-01T14:46:24Z" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.runners.LoginPageValidation@66d3eec0]" started-at="2023-03-17T16:14:40 IST" name="tearDown" finished-at="2023-03-17T16:14:40 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.orangehrm.testCases.TC_LoginTest_001 -->
+      </class> <!-- com.orangehrm.runners.LoginPageValidation -->
     </test> <!-- orangeHRM -->
   </suite> <!-- orange01 -->
 </testng-results>
