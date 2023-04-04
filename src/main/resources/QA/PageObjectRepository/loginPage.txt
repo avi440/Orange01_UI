@@ -3,8 +3,22 @@ page title:Orange Editorial Systems - Login page
 
 # Object Definitions 
 ===============================================================================================================================
+
 PlatformElement                                      xpath                  //li[@class='nav-item']/a[text()='Platform']
 WhyOrangeHRMElement                                  xpath                  //li[@class='nav-item']/a[text()='Why OrangeHRM']
 ResourcesElement                                     xpath                  //li[@class='nav-item']/a[text()='Company']
+CompanyElement                                       xpath                  //li[@class='nav-item']/a[text()='Company']
+bookFreeDemoElement                                  xpath                  //div[@class='d-flex web-menu-btn']//button[text()='Book a Free Demo']
+contactSalesElement                                  xpath                  //div[@class='d-flex web-menu-btn']//button[text()='Contact Sales']
+tryItFreeElement                                     xpath                  //div[@class='btn-toolbar']/input[@value='Try it for Free']
+PeopleManagementElement                              xpath                  //div[@class='homepage-product-content ']/h2[text()='People Management']
+cultureElement                                       xpath                  //div[@class='homepage-product-content ']/h2[text()='Culture']
+talentManagementElement                              xpath                  //div[@class='homepage-product-content ']/h2[text()='Talent Management']
+yourFullName                                         css                    input#Form_getForm_FullName.text
+businessEmail                                        css                    input#Form_getForm_Email.text
+Country                                              css                    select#Form_getForm_Country.dropdown
+phoneNumber                                          css                    input#Form_getForm_Contact.text
+notRobot                                             css                    div.recaptcha-checkbox-spinner
+submitButton                                         css                    input#Form_getForm_action_submitForm.action
 
 ===============================================================================================================================

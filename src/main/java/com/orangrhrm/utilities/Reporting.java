@@ -5,6 +5,7 @@ package com.orangrhrm.utilities;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
@@ -40,20 +41,23 @@ public class Reporting extends TestListenerAdapter{
    
 
     
-	public void delectFile() {
-	File folder = new File(System.getProperty("user.dir")+"/test-output/Extentreports/");
-	if(!folder.isFile()) {
-	File[] listOfFiles = folder.listFiles();
-	String fileName = null;
-	for (File file : listOfFiles) {
-	    if (file.isFile()) {
-	    	fileName = file.getName();
-	    }
+   public void delectFile() {
+		File folder = new File(System.getProperty("user.dir")+"/test-output/Extentreports/");
+		if(!folder.isFile()) {
+		File[] listOfFiles = folder.listFiles();
+		ArrayList<String> deFaile = new ArrayList<String>();
+		for (File file : listOfFiles){
+		    if (file.isFile()) {
+		    	deFaile.add(file.getName());
+		    }
+		}
+		for(String fileName:deFaile) {
+		File file = new File(System.getProperty("user.dir")+"/test-output/Extentreports/"+fileName);  
+		file.deleteOnExit();
+		}
+		}
 	}
-	File file = new File(System.getProperty("user.dir")+"/test-output/Extentreports/"+fileName); //creates a file instance  
-	file.deleteOnExit();
-	}
-}
+   
 	public static String captureScreenshot(WebDriver driver) throws IOException {
 		 TakesScreenshot ts = (TakesScreenshot)driver;
 	     File Source = ts.getScreenshotAs(OutputType.FILE);

@@ -1,16 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[ASSERTION PASSED: element PlatformElement is displayed.]]>
     </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element WhyOrangeHRMElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element ResourcesElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element CompanyElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element bookFreeDemoElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element contactSalesElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element tryItFreeElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element PeopleManagementElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element cultureElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element talentManagementElement is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element yourFullName is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element businessEmail is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element Country is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element phoneNumber is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[ASSERTION PASSED: element submitButton is displayed.]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-03-17T16:14:23 IST" name="orange01" finished-at="2023-03-17T16:14:40 IST" duration-ms="16893">
+  <suite started-at="2023-04-04T12:50:13 IST" name="orange01" finished-at="2023-04-04T12:50:34 IST" duration-ms="20631">
     <groups>
     </groups>
-    <test started-at="2023-03-17T16:14:23 IST" name="orangeHRM" finished-at="2023-03-17T16:14:40 IST" duration-ms="16893">
+    <test started-at="2023-04-04T12:50:13 IST" name="orangeHRM" finished-at="2023-04-04T12:50:34 IST" duration-ms="20631">
       <class name="com.orangehrm.runners.LoginPageValidation">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.runners.LoginPageValidation@66d3eec0]" started-at="2023-03-17T16:14:23 IST" name="setup" finished-at="2023-03-17T16:14:40 IST" duration-ms="16205" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.orangehrm.runners.LoginPageValidation@290222c1]" started-at="2023-04-04T12:50:13 IST" name="setup" finished-at="2023-04-04T12:50:26 IST" duration-ms="12896" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,14 +63,68 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logTest()[pri:1, instance:com.orangehrm.runners.LoginPageValidation@66d3eec0]" started-at="2023-03-17T16:14:40 IST" name="logTest" finished-at="2023-03-17T16:14:40 IST" duration-ms="247" status="PASS">
+        <test-method signature="loginTest__01()[pri:1, instance:com.orangehrm.runners.LoginPageValidation@290222c1]" started-at="2023-04-04T12:50:26 IST" name="loginTest__01" finished-at="2023-04-04T12:50:27 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest__01 -->
+        <test-method signature="logTestPageElementValidation__02()[pri:2, instance:com.orangehrm.runners.LoginPageValidation@290222c1]" started-at="2023-04-04T12:50:27 IST" name="logTestPageElementValidation__02" finished-at="2023-04-04T12:50:29 IST" duration-ms="2134" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ASSERTION PASSED: element PlatformElement is displayed.]]>
             </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element WhyOrangeHRMElement is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element ResourcesElement is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element CompanyElement is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element bookFreeDemoElement is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element contactSalesElement is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element tryItFreeElement is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element PeopleManagementElement is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element cultureElement is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element talentManagementElement is displayed.]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- logTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.runners.LoginPageValidation@66d3eec0]" started-at="2023-03-17T16:14:40 IST" name="tearDown" finished-at="2023-03-17T16:14:40 IST" duration-ms="142" status="PASS">
+        </test-method> <!-- logTestPageElementValidation__02 -->
+        <test-method signature="bookFreeDemoTitleValidation__03()[pri:3, instance:com.orangehrm.runners.LoginPageValidation@290222c1]" started-at="2023-04-04T12:50:29 IST" name="bookFreeDemoTitleValidation__03" finished-at="2023-04-04T12:50:32 IST" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFreeDemoTitleValidation__03 -->
+        <test-method signature="bookFreeDemoElementValidation__04()[pri:4, instance:com.orangehrm.runners.LoginPageValidation@290222c1]" started-at="2023-04-04T12:50:32 IST" name="bookFreeDemoElementValidation__04" finished-at="2023-04-04T12:50:33 IST" duration-ms="984" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ASSERTION PASSED: element yourFullName is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element businessEmail is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element Country is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element phoneNumber is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[ASSERTION PASSED: element submitButton is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookFreeDemoElementValidation__04 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.runners.LoginPageValidation@290222c1]" started-at="2023-04-04T12:50:33 IST" name="tearDown" finished-at="2023-04-04T12:50:34 IST" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

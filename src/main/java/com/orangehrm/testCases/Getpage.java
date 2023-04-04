@@ -6,6 +6,8 @@ import static org.testng.Assert.fail;
 import static org.hamcrest.MatcherAssert.assertThat; 
 import static org.hamcrest.core.StringContains.containsString;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -13,8 +15,11 @@ import java.util.concurrent.TimeoutException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -43,6 +48,16 @@ public class Getpage extends BaseUI   {
 		 this.pageName = pageName; 
 		 layouttest = new LayoutValidation(driver, pageName);
 	}
+	
+	public void captureScreenshot(WebDriver driver,String tname) throws IOException {
+		 TakesScreenshot ts = (TakesScreenshot)driver;
+	     File Source = ts.getScreenshotAs(OutputType.FILE);
+	     File destination = new File(System.getProperty("user.dir")+"/Screenshots/"+tname+".png");
+//	     String filePath = destination.getAbsolutePath();
+	     FileUtils.copyFile(Source, destination);
+//	     return filePath;
+	     System.out.println("Take screenshot: " + tname);
+	  }
 
 	public void testPageLayout(List<String> tagsToBeTested) {
 		layouttest.checklayout(tagsToBeTested); 
